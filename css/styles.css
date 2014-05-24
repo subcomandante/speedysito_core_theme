@@ -10,7 +10,8 @@
 @import "normalize.css";
 
 /* Layout rules */
-@import "layouts/responsive.css";
+/* @import "layouts/responsive.css"; */
+@import "layouts/speedysito.css";
 
 /* Component (SMACSS module) rules */
 @import "components/misc.css";
