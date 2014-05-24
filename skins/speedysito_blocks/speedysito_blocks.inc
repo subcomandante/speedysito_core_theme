@@ -16,22 +16,20 @@ function speedysito_skinr_group_speedysito_blocks_info() {
 * Implements hook_skinr_skin_PLUGIN_info().
 */
 function speedysito_skinr_skin_speedysito_blocks_info() {
-  $skins['speedysito_text_color'] = array(
-    'title' => t('Text color'),
-    'description' => t('Description'),
+  $skins['speedysito_block_position'] = array(
+    'title' => t('Block position'),
+    'description' => t('Change the position of this block'),
     'type' => 'select',
-    'attached' => array('css' => array('colors.css')),
+    'attached' => array('css' => array('speedysito_block_position.css')),
     'default status' => 1,
     /*'group' => 'typography',*/
     'group' => 'speedysito_blocks',
     'theme hooks' => array('block'),
     'options' => array(
-      'color_1' => array('title' => t('Red'), 'class' => array('red')),
-      'color_2' => array('title' => t('Orange'), 'class' => array('orange')),
-      'color_3' => array('title' => t('Yellow'), 'class' => array('yellow')),
-      'color_4' => array('title' => t('Green'), 'class' => array('green')),
-      'color_5' => array('title' => t('Blue'), 'class' => array('blue')),
-      'color_6' => array('title' => t('Violet'), 'class' => array('violet')),
+      'speedysito_block_float_left'   => array('title' => t('Left'),   'class' => array('speedysito-block-float-left')),
+      'speedysito_block_float_center' => array('title' => t('Center'), 'class' => array('speedysito-block-float-center')),
+      'speedysito_block_float_right'  => array('title' => t('Right'),  'class' => array('speedysito-block-float-right')),
+      'speedysito_block_float_clear'  => array('title' => t('Clear (block drops to a new line)'),  'class' => array('speedysito-block-float-clear')),
     ),
   );
   return $skins;
