@@ -10,6 +10,12 @@
 
 <div id="page">
 
+  <div id="header_top">
+  <div class="ss_row_wrapper">
+    <?php print render($page['header_top']); ?>
+  </div>
+  </div>
+
   <header class="header" id="header" role="banner">
   <div class="ss_row_wrapper">
     <?php if ($logo): ?>
