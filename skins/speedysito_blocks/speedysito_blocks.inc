@@ -16,9 +16,9 @@ function speedysito_skinr_group_speedysito_blocks_info() {
 * Implements hook_skinr_skin_PLUGIN_info().
 */
 function speedysito_skinr_skin_speedysito_blocks_info() {
-  $skins['speedysito_block_position'] = array(
-    'title' => t('Block position'),
-    'description' => t('Change the position of this block'),
+  $skins['speedysito_block_horizontal_position'] = array(
+    'title' => t('Block horizontal position'),
+    'description' => t('Change the horizontal position of this block'),
     'type' => 'select',
     'attached' => array('css' => array('speedysito_block_position.css')),
     'default status' => 1,
