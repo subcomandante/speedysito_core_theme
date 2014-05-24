@@ -56,6 +56,13 @@
   </div>
   </header>
 
+  <div id="preface">
+  <div class="ss_row_wrapper">
+    <?php print render($page['preface']); ?>
+  </div>
+  </div>
+
+
   <div id="main">
   <div class="ss_row_wrapper">
 
