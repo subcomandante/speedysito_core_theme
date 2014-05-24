@@ -11,7 +11,7 @@
 <div id="page">
 
   <header class="header" id="header" role="banner">
-
+  <div class="ss_row_wrapper">
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
     <?php endif; ?>
@@ -47,10 +47,11 @@
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
-
+  </div>
   </header>
 
   <div id="main">
+  <div class="ss_row_wrapper">
 
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
@@ -111,6 +112,7 @@
       </aside>
     <?php endif; ?>
 
+  </div>
   </div>
 
   <?php print render($page['footer']); ?>
