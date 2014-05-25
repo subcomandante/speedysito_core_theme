@@ -54,3 +54,57 @@
   background: url('block_borders/rounded-corner-left-right.png') left top repeat-y;
 }
 
+
+
+/* PAPER SHEET */
+.speedysito-block-border-papersheet.block{
+}
+
+.speedysito-block-border-papersheet .box{
+  border-top: none;
+  border-bottom: 26px solid #f5f7e7;
+  border-right:none;
+  border-left:none;
+}
+
+.speedysito-block-border-papersheet .block-container{
+  padding:20px;
+  border-radius:5px;
+}
+
+.speedysito-block-border-papersheet .border-color { }
+.speedysito-block-border-papersheet .corner-color { }
+
+.speedysito-block-border-papersheet .corner, .block .side {
+}
+
+.speedysito-block-border-papersheet .corner.bottom.right,
+.speedysito-block-border-papersheet .corner.bottom.left
+{
+  width:165px;
+  height:26px;
+  background-image: url('block_borders/liftedshadow_medium.png');
+}
+
+.speedysito-block-border-papersheet .side.top {
+  height:8px;
+  /*background: url('http://www.speedysito.it/sites/all/themes/acquia_marina/images/rounded-corner.png') center top repeat-x;*/
+}
+
+.speedysito-block-border-papersheet .side.right {
+  width:8px;
+  /*background: url('http://www.speedysito.it/sites/all/themes/acquia_marina/images/rounded-corner-left-right.png') right top repeat-y;*/
+}
+
+.speedysito-block-border-papersheet .side.bottom {
+  height:26px;
+  /*background: url('http://www.speedysito.it/sites/all/themes/acquia_marina/images/rounded-corner.png') center bottom repeat-x;*/
+}
+
+.speedysito-block-border-papersheet .side.left {
+  width:8px;
+  /*background: url('http://www.speedysito.it/sites/all/themes/acquia_marina/images/rounded-corner-left-right.png') left top repeat-y;*/
+}
+
+/* ---------- */
+

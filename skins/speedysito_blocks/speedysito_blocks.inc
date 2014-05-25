@@ -59,6 +59,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     'theme hooks' => array('block'),
     'options' => array(
       'speedysito_block_border_elegant'     => array('title' => t('Elegant'),   'class' => array('speedysito-block-border-elegant')),
+      'speedysito_block_border_papersheet'  => array('title' => t('Paper sheet'), 'class' => array('speedysito-block-border-papersheet')),
     ),
   );
 
