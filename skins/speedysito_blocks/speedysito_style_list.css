@@ -1,0 +1,10 @@
+
+
+.speedysito-style-list-checkmark {
+ list-style-image: url("images/green-checkmark.png");
+
+}
+
+.speedysito-style-list-arrow {
+  list-style-image: url("images/green-bullet.png");
+}

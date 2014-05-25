@@ -50,6 +50,22 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
   );
 
 
+  $skins['speedysito_style_list'] = array(
+    'title' => t('List style'),
+    'description' => t('Change the list style'),
+    'type' => 'select',
+    'attached' => array('css' => array('speedysito_style_list.css')),
+    'default status' => 1,
+    'group' => 'speedysito_blocks',
+    'theme hooks' => array('block', 'node'),
+    'options' => array(
+      'speedysito_style_list_checkmark'   => array('title' => t('Check mark'), 'class' => array('speedysito-style-list-checkmark')),
+      'speedysito_style_list_arrow'   => array('title' => t('Arrow'), 'class' => array('speedysito-style-list-arrow')),
+    ),
+  );
+
+
+
   return $skins;
 }
 
