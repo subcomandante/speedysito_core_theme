@@ -1,0 +1,62 @@
+.speedysito-block-border-elegant.block{
+  /*background:#fff;*/
+}
+
+.speedysito-block-border-elegant .box{
+}
+
+.speedysito-block-border-elegant .block-container{
+  padding: 13px;
+}
+
+.speedysito-block-border-elegant .border-color { }
+.speedysito-block-border-elegant .corner-color { }
+
+.speedysito-block-border-elegant .corner, .speedysito-block-border-elegant .side {
+}
+
+.speedysito-block-border-elegant .corner.top.right,
+.speedysito-block-border-elegant .corner.bottom.right,
+.speedysito-block-border-elegant .corner.bottom.left,
+.speedysito-block-border-elegant .corner.top.left
+{
+  width:8px;
+  height:8px;
+  background-image: url('block_borders/rounded-corner.png');
+}
+
+.speedysito-block-border-elegant .corner.top.right {
+	background-position: top right;
+}
+.speedysito-block-border-elegant .corner.bottom.right {
+	background-position: bottom right;
+}
+
+.speedysito-block-border-elegant .corner.bottom.left {
+	background-position: bottom left;
+}
+
+.speedysito-block-border-elegant .corner.top.left {
+	background-position: top left;
+}
+
+.speedysito-block-border-elegant .side.top {
+  height:8px;
+  background: url('block_borders/rounded-corner.png') center top repeat-x;
+}
+
+.speedysito-block-border-elegant .side.right {
+  width:8px;
+  background: url('block_borders/rounded-corner-left-right.png') right top repeat-y;
+}
+
+.speedysito-block-border-elegant .side.bottom {
+  height:8px;
+  background: url('block_borders/rounded-corner.png') center bottom repeat-x;
+}
+
+.speedysito-block-border-elegant .side.left {
+  width:8px;
+  background: url('block_borders/rounded-corner-left-right.png') left top repeat-y;
+}
+

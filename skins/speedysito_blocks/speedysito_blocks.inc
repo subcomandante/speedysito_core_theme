@@ -49,6 +49,20 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     ),
   );
 
+  $skins['speedysito_block_border'] = array(
+    'title' => t('Block border'),
+    'description' => t('Change the border of this block'),
+    'type' => 'select',
+    'attached' => array('css' => array('speedysito_block_border.css')),
+    'default status' => 1,
+    'group' => 'speedysito_blocks',
+    'theme hooks' => array('block'),
+    'options' => array(
+      'speedysito_block_border_elegant'     => array('title' => t('Elegant'),   'class' => array('speedysito-block-border-elegant')),
+    ),
+  );
+
+
 
   $skins['speedysito_style_list'] = array(
     'title' => t('List style'),

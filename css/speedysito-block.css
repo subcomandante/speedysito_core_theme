@@ -1,0 +1,53 @@
+.block {
+  position:relative;
+}
+
+.box{
+  width:auto;
+  height:auto;
+  padding:0;
+  margin:0;
+}
+
+.block-container {
+}
+
+.border-color { }
+.corner-color { }
+
+.corner, .side {
+  position:absolute;
+}
+
+.top    { top:0;    } 
+.right  { right:0;  }
+.bottom { bottom:0; }
+.left   { left:0;   }
+
+.corner { z-index:3; }
+.side   { z-index:2; }
+
+.corner.top.right,
+.corner.bottom.right,
+.corner.bottom.left,
+.corner.top.left {
+}
+
+.side.top {
+  width:100%;
+  top:0;
+}
+
+.side.right {
+  height:100%;
+  top:0;
+}
+
+.side.bottom {
+  width:100%;
+}
+
+.side.left {
+  height:100%;
+  top:0;
+}
