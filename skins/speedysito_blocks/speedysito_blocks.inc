@@ -32,6 +32,24 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
       'speedysito_block_float_clear'  => array('title' => t('Clear (block drops to a new line)'),  'class' => array('speedysito-block-float-clear')),
     ),
   );
+
+  $skins['speedysito_block_width'] = array(
+    'title' => t('Block width'),
+    'description' => t('Change the width of this block'),
+    'type' => 'select',
+    'attached' => array('css' => array('speedysito_block_width.css')),
+    'default status' => 1,
+    'group' => 'speedysito_blocks',
+    'theme hooks' => array('block'),
+    'options' => array(
+      'speedysito_block_width_25'     => array('title' => t('25%'),   'class' => array('speedysito-block-width-25')),
+      'speedysito_block_width_33'     => array('title' => t('33%'),   'class' => array('speedysito-block-width-33')),
+      'speedysito_block_width_50'     => array('title' => t('50%'),   'class' => array('speedysito-block-width-50')),
+      'speedysito_block_width_100'    => array('title' => t('100%'),  'class' => array('speedysito-block-width-100')),
+    ),
+  );
+
+
   return $skins;
 }
 
