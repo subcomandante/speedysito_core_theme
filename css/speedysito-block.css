@@ -2,52 +2,52 @@
   position:relative;
 }
 
-.box{
+.block .box{
   width:auto;
   height:auto;
   padding:0;
   margin:0;
 }
 
-.block-container {
+.block .block-container {
 }
 
-.border-color { }
-.corner-color { }
+.block .border-color { }
+.block .corner-color { }
 
-.corner, .side {
+.block .corner, .block .side {
   position:absolute;
 }
 
-.top    { top:0;    } 
-.right  { right:0;  }
-.bottom { bottom:0; }
-.left   { left:0;   }
+.block .top    { top:0;    } 
+.block .right  { right:0;  }
+.block .bottom { bottom:0; }
+.block .left   { left:0;   }
 
-.corner { z-index:3; }
-.side   { z-index:2; }
+.block .corner { z-index:3; }
+.block .side   { z-index:2; }
 
-.corner.top.right,
-.corner.bottom.right,
-.corner.bottom.left,
-.corner.top.left {
+.block .corner.top.right,
+.block .corner.bottom.right,
+.block .corner.bottom.left,
+.block .corner.top.left {
 }
 
-.side.top {
+.block .side.top {
   width:100%;
   top:0;
 }
 
-.side.right {
+.block .side.right {
   height:100%;
   top:0;
 }
 
-.side.bottom {
+.block .side.bottom {
   width:100%;
 }
 
-.side.left {
+.block .side.left {
   height:100%;
   top:0;
 }
