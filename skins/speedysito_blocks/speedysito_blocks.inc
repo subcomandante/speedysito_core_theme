@@ -67,16 +67,16 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     ),
   );
 
-  $skins['speedysito_block_background'] = array(
-    'title' => t('Background'),
-    'description' => t('Change the background of this block'),
+  $skins['speedysito_block_background_image'] = array(
+    'title' => t('Background image'),
+    'description' => t('Change the background image of this block'),
     'type' => 'select',
-    'attached' => array('css' => array('speedysito_block_background.css')),
+    'attached' => array('css' => array('speedysito_block_background_image.css')),
     'default status' => 1,
     'group' => 'speedysito_blocks',
     'theme hooks' => array('block'),
     'options' => array(
-      'speedysito_block_background_elegantgradient'     => array('title' => t('Elegant gradient'),   'class' => array('speedysito-block-background-elegantgradient')),
+      'speedysito_block_background_elegantgradient'     => array('title' => t('Elegant gradient'),   'class' => array('speedysito-block-background-image-elegantgradient')),
     ),
   );
 
