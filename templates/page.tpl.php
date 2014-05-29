@@ -127,6 +127,12 @@
   </div>
   </div>
 
+  <div id="main_bottom">
+  <div class="main_bottom_inner ss_row_wrapper clearfix">
+    <?php print render($page['main_bottom']); ?>
+  </div>
+  </div>
+
   <div id="footer_top">
   <div class="footer_top_inner ss_row_wrapper clearfix">
     <?php print render($page['footer_top']); ?>
