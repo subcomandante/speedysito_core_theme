@@ -16,6 +16,7 @@
 /* Component (SMACSS module) rules */
 @import "components/misc.css";
 /* Optionally, add your own components here. */
+@import "speedysito.css";
 @import "print.css";
 
 /* SMACSS theme rules */
