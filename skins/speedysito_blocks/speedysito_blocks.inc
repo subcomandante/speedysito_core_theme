@@ -90,6 +90,9 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     'theme hooks' => array('block'),
     'options' => array(
       'speedysito_block_background_white'     => array('title' => t('White'),   'class' => array('speedysito-block-background-color-white')),
+      'speedysito_block_background_green'     => array('title' => t('Green'),   'class' => array('speedysito-block-background-color-green')),
+      'speedysito_block_background_blue'      => array('title' => t('Blue'),    'class' => array('speedysito-block-background-color-blue')),
+      'speedysito_block_background_orange'    => array('title' => t('Orange'),  'class' => array('speedysito-block-background-color-orange')),
       'speedysito_block_background_black'     => array('title' => t('Black'),   'class' => array('speedysito-block-background-color-black')),
     ),
   );
