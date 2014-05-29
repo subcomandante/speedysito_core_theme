@@ -80,6 +80,23 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     ),
   );
 
+  $skins['speedysito_block_background_color'] = array(
+    'title' => t('Background color'),
+    'description' => t('Change the background color of this block'),
+    'type' => 'select',
+    'attached' => array('css' => array('speedysito_block_background_color.css')),
+    'default status' => 1,
+    'group' => 'speedysito_blocks',
+    'theme hooks' => array('block'),
+    'options' => array(
+      'speedysito_block_background_white'     => array('title' => t('White'),   'class' => array('speedysito-block-background-color-white')),
+      'speedysito_block_background_black'     => array('title' => t('Black'),   'class' => array('speedysito-block-background-color-black')),
+    ),
+  );
+
+
+
+
 
 
   $skins['speedysito_style_list'] = array(

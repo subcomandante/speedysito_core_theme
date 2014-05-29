@@ -1,6 +1,10 @@
 
 
-.speedysito-block-background-image-elegantgradient .box {
-  background: url('block_backgrounds/block-gradient.png') bottom left repeat-x;
+.speedysito-block-background-image-elegantgradient {
+  /*background-image: url('block_backgrounds/block-gradient.png');*/
+  background-image: url('block_backgrounds/lightblue-vertical-gradient.png');
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  /*bottom left repeat-x*/
 /*  background-color: #ffffff; */
 }
