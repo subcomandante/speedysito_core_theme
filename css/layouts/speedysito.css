@@ -57,7 +57,7 @@
 #header,
 #preface,
 #main,
-#region_services,
+#footer_top,
 #footer {
   *position: relative;
   *zoom: 1;
@@ -68,8 +68,8 @@
 #preface:after,
 #main:before,
 #main:after,
-#region_services:before,
-#region_services:after,
+#footer_top:before,
+#footer_top:after,
 #footer:before,
 #footer:after {
   content: "";
@@ -78,7 +78,7 @@
 #header:after,
 #preface:after,
 #main:after,
-#region_services:after,
+#footer_top:after,
 #footer:after {
   clear: both;
 }

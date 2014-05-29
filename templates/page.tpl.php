@@ -127,9 +127,9 @@
   </div>
   </div>
 
-  <div id="region_services">
-  <div class="region_services_inner ss_row_wrapper clearfix">
-    <?php print render($page['region_services']); ?>
+  <div id="footer_top">
+  <div class="footer_top_inner ss_row_wrapper clearfix">
+    <?php print render($page['footer_top']); ?>
   </div>
   </div>
 
