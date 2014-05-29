@@ -2,3 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
+.block h2.block-title {
+  font-size: 120%
+}
