@@ -8,6 +8,10 @@ function speedysito_skinr_group_speedysito_blocks_info() {
     'title' => t('SpeedySito Blocks'),
     'description' => t('SpeedySito block styles.'),
   );
+  $groups['speedysito_content'] = array(
+    'title' => t('SpeedySito Content'),
+    'description' => t('SpeedySito content styles.'),
+  );
   return $groups;
 }
 
@@ -17,7 +21,7 @@ function speedysito_skinr_group_speedysito_blocks_info() {
 */
 function speedysito_skinr_skin_speedysito_blocks_info() {
   $skins['speedysito_block_horizontal_position'] = array(
-    'title' => t('Block horizontal position'),
+    'title' => t('Horizontal position'),
     'description' => t('Change the horizontal position of this block'),
     'type' => 'select',
     'attached' => array('css' => array('speedysito_block_position.css')),
@@ -34,7 +38,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
   );
 
   $skins['speedysito_block_width'] = array(
-    'title' => t('Block width'),
+    'title' => t('Width'),
     'description' => t('Change the width of this block'),
     'type' => 'select',
     'attached' => array('css' => array('speedysito_block_width.css')),
@@ -50,7 +54,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
   );
 
   $skins['speedysito_block_border'] = array(
-    'title' => t('Block border'),
+    'title' => t('Border'),
     'description' => t('Change the border of this block'),
     'type' => 'select',
     'attached' => array('css' => array('speedysito_block_border.css')),
@@ -64,7 +68,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
   );
 
   $skins['speedysito_block_background'] = array(
-    'title' => t('Block background'),
+    'title' => t('Background'),
     'description' => t('Change the background of this block'),
     'type' => 'select',
     'attached' => array('css' => array('speedysito_block_background.css')),
@@ -84,7 +88,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     'type' => 'select',
     'attached' => array('css' => array('speedysito_style_list.css')),
     'default status' => 1,
-    'group' => 'speedysito_blocks',
+    'group' => 'speedysito_content',
     'theme hooks' => array('block', 'node'),
     'options' => array(
       'speedysito_style_list_checkmark'   => array('title' => t('Check mark'), 'class' => array('speedysito-style-list-checkmark')),
