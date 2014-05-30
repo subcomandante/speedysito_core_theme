@@ -49,6 +49,8 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
       'speedysito_block_width_25'     => array('title' => t('25%'),   'class' => array('speedysito-block-width-25')),
       'speedysito_block_width_33'     => array('title' => t('33%'),   'class' => array('speedysito-block-width-33')),
       'speedysito_block_width_50'     => array('title' => t('50%'),   'class' => array('speedysito-block-width-50')),
+      'speedysito_block_width_66'     => array('title' => t('66%'),   'class' => array('speedysito-block-width-66')),
+      'speedysito_block_width_75'     => array('title' => t('75%'),   'class' => array('speedysito-block-width-75')),
       'speedysito_block_width_100'    => array('title' => t('100%'),  'class' => array('speedysito-block-width-100')),
     ),
   );
