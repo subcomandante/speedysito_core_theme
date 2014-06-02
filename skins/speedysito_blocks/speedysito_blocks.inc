@@ -131,6 +131,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     'description' => t('Change the style of menu'),
     'type' => 'select',
     'attached' => array('css' => array('speedysito_menu_style.css')),
+    /*'weight' => '10',*/
     'default status' => 1,
     'group' => 'speedysito_menus',
     'theme hooks' => array('block__menu'),
