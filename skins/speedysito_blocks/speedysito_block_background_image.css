@@ -8,3 +8,18 @@
   /*bottom left repeat-x*/
 /*  background-color: #ffffff; */
 }
+
+.speedysito-block-background-image-numeroverde {
+  background-image: url('block_backgrounds/numeroverde2.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 150px;
+}
+
+.speedysito-block-background-image-numeroverde .box {
+  margin-top: 12px !important;
+  margin-left: 25px !important;
+  font-size: 20px;
+}
+

@@ -84,6 +84,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     'theme hooks' => array('block'),
     'options' => array(
       'speedysito_block_background_elegantgradient'     => array('title' => t('Elegant gradient'),   'class' => array('speedysito-block-background-image-elegantgradient')),
+      'speedysito_block_background_numeroverde'     => array('title' => t('Numero Verde'),   'class' => array('speedysito-block-background-image-numeroverde')),
     ),
   );
 

@@ -18,6 +18,7 @@
 
   <header class="header" id="header" role="banner">
   <div class="region_header_inner ss_row_wrapper clearfix">
+    <div id="site-logo-name-slogan">
     <?php if ($logo || $site_name): ?>
       <div class="header__logo-and-name" id="logo-and-name">
         <?php if ($logo): ?>
@@ -34,6 +35,7 @@
     <?php if ($site_slogan): ?>
       <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
     <?php endif; ?>
+    </div>
 
     <?php if ($secondary_menu): ?>
       <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
@@ -52,6 +54,11 @@
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
+  </div>
+  <div id="header_bottom">
+  <div class="region_header_bottom_inner ss_row_wrapper clearfix">
+    <?php print render($page['header_bottom']); ?>
+  </div>
   </div>
   </header>
 
