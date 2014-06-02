@@ -12,6 +12,11 @@ function speedysito_skinr_group_speedysito_blocks_info() {
     'title' => t('SpeedySito Content'),
     'description' => t('SpeedySito content styles.'),
   );
+  $groups['speedysito_menus'] = array(
+    'title' => t('SpeedySito Menu'),
+    'description' => t('SpeedySito menu styles.'),
+  );
+
   return $groups;
 }
 
@@ -118,6 +123,22 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     ),
   );
 
+
+
+  /* MENU */
+  $skins['speedysito_menu_style'] = array(
+    'title' => t('Style'),
+    'description' => t('Change the style of menu'),
+    'type' => 'select',
+    'attached' => array('css' => array('speedysito_menu_style.css')),
+    'default status' => 1,
+    'group' => 'speedysito_menus',
+    'theme hooks' => array('block__menu'),
+    'options' => array(
+      'speedysito_menu_style_simple'   => array('title' => t('Simple'), 'class' => array('speedysito-menu-style-simple')),
+      'speedysito_menu_style_tabbed'   => array('title' => t('Tabbed'), 'class' => array('speedysito-menu-style-tabbed')),
+    ),
+  );
 
 
   return $skins;
