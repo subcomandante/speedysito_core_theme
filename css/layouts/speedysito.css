@@ -83,6 +83,20 @@
   clear: both;
 }
 
+
+@media all and (max-width: 959px) {
+  body {
+    font-size: 0.7em;
+  }
+
+}
+
+@media all and (min-width: 960px) {
+  body {
+    font-size: 1em;
+  }
+}
+
 /* Navigation bar */
 @media all and (min-width: 480px) {
   #main {
