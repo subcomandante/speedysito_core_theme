@@ -35,6 +35,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     'group' => 'speedysito_blocks',
     'theme hooks' => array('block'),
     'options' => array(
+      'speedysito_block_inline'       => array('title' => t('Inline'), 'class' => array('speedysito-block-inline')),
       'speedysito_block_float_left'   => array('title' => t('Left'),   'class' => array('speedysito-block-float-left')),
       'speedysito_block_float_center' => array('title' => t('Center'), 'class' => array('speedysito-block-float-center')),
       'speedysito_block_float_right'  => array('title' => t('Right'),  'class' => array('speedysito-block-float-right')),

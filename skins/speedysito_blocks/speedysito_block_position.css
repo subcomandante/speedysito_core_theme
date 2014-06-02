@@ -1,5 +1,10 @@
 /* SpeedySito Block Positions */
 
+.speedysito-block-inline {
+  display: inline-block;
+}
+
+
 .speedysito-block-float-left {
   float: left;
 }
