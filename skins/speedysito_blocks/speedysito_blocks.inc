@@ -61,6 +61,23 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     ),
   );
 
+  $skins['speedysito_block_innerspacing'] = array(
+    'title' => t('Inner spacing'),
+    'description' => t('Change the spacing between blocks'),
+    'type' => 'select',
+    'attached' => array('css' => array('speedysito_block_innerspacing.css')),
+    'default status' => 1,
+    'group' => 'speedysito_blocks',
+    'theme hooks' => array('block'),
+    'options' => array(
+      'speedysito_block_innerspacing_5'     => array('title' => t('5%'),   'class' => array('speedysito-block-innerspacing-5')),
+      'speedysito_block_innerspacing_10'    => array('title' => t('10%'),  'class' => array('speedysito-block-innerspacing-10')),
+    ),
+  );
+
+
+
+
   $skins['speedysito_block_border'] = array(
     'title' => t('Border'),
     'description' => t('Change the border of this block'),

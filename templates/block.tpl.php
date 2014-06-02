@@ -8,7 +8,8 @@
  */
 ?>
 <div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
-
+  <div class="block-spacing">
+  <div class="box-container">
   <div class="box"><!-- .box -->
     <div class="block-container">
     <?php print render($title_prefix); ?>
@@ -53,4 +54,6 @@
   <div class="corner top left corner-color"></div>
   <!-- /TL -->
 
+  </div><!-- /.box-container -->
+  </div>
 </div>

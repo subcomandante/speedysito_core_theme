@@ -1,20 +1,20 @@
 
-.speedysito-block-background-color-white {
+.speedysito-block-background-color-white .box-container {
   background-color: #FFFFFF;
 }
 
-.speedysito-block-background-color-green {
+.speedysito-block-background-color-green .box-container {
   background-color: #94CE18;
 }
 
-.speedysito-block-background-color-blue {
+.speedysito-block-background-color-blue .box-container {
   background-color: #62ABDE;
 }
 
-.speedysito-block-background-color-orange {
+.speedysito-block-background-color-orange .box-container {
   background-color: #FFA143;
 }
 
-.speedysito-block-background-color-black {
+.speedysito-block-background-color-black .box-container {
   background-color: #000000;
 }

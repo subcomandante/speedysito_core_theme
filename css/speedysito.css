@@ -6,3 +6,9 @@
 .block h2.block-title {
   font-size: 120%
 }
+
+
+/* Used to fix skinr block */
+.block .box-container {
+  position: relative;
+}
