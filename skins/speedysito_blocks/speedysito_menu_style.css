@@ -1,7 +1,7 @@
 
 
 .speedysito-menu-style-simple {
-
+/*  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;;*/
 }
 
 .speedysito-menu-style-simple ul.menu {
@@ -12,24 +12,36 @@
 
 .speedysito-menu-style-simple ul.menu li.menu__item {
   list-style: none;
+  margin: 0 0 5px 0;
+  text-align: right;
 }
 
 .speedysito-menu-style-simple ul.menu li.menu__item a.menu__link {
   text-decoration: none;
-  display: block;
-  background-color: #444444;
-  color: #FFFFFF;
-  margin: 1px 0;
-  padding: 5px 5px;
+  /*display: block;*/
+  display: inline-block;
+  background-color: #FFF;
+  color: #154B70;
+  margin: 0;
+  padding: 0.5em;
   text-decoration: none;
+
+  border-bottom: 1px solid #D2D2D2;
+  border-bottom-left-radius: 10px;
+  border-left: 1px solid #D2D2D2;
+  border-top: 1px solid #D2D2D2;
+  border-top-left-radius: 10px;
 }
 
 .speedysito-menu-style-simple ul.menu li.menu__item a.menu__link.active {
   padding-left: 20px;
-  background-color: #888888;
+  background-color: #a6cd40;
+  font-weight: bold;
+  color: #fff;
 }
 
 
 .speedysito-menu-style-simple ul.menu li.menu__item a.menu__link:hover {
-  background-color: #888888;
+  background-color: #a6cd40;
+  color: #fff;
 }
