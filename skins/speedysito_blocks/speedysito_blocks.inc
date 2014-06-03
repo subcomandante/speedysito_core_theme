@@ -153,7 +153,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     /*'weight' => '10',*/
     'default status' => 1,
     'group' => 'speedysito_menus',
-    'theme hooks' => array('block__menu'),
+    'theme hooks' => array('block__menu', 'block__system'),
     'options' => array(
       'speedysito_menu_style_simple'   => array('title' => t('Simple'), 'class' => array('speedysito-menu-style-simple')),
       'speedysito_menu_style_tabbed'   => array('title' => t('Tabbed'), 'class' => array('speedysito-menu-style-tabbed')),
