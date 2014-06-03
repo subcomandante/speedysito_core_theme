@@ -69,6 +69,13 @@
   </div>
 
   <div id="main-wrapper">
+
+  <div id="main_top">
+  <div class="main_top_inner ss_row_wrapper clearfix">
+    <?php print render($page['main_top']); ?>
+  </div>
+  </div>
+
   <div id="main">
   <div class="region_main_inner ss_row_wrapper clearfix">
 

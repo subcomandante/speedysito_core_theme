@@ -98,6 +98,7 @@ regions[header]         = Header
 regions[header_bottom]  = Header bottom
 regions[navigation]     = Navigation bar
 regions[preface]        = Preface
+regions[main_top]       = Main top
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
