@@ -59,6 +59,7 @@ stylesheets[all][] = system.theme.css
 stylesheets[all][] = css/styles.css
 ; SpeedySito block with corners (including block.tpl.php)
 stylesheets[all][] = css/speedysito-block.css
+stylesheets[all][] = css/speedysito-tabs.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html

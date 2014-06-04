@@ -1,21 +1,5 @@
-.block {
-  margin: 0;
-  padding: 0;
-}
-
-.block h2.block-title {
-  font-size: 120%
-}
-
-
-/* Used to fix skinr block */
-.block .box-container {
-  position: relative;
-}
-
-
-/* Head Messages */
-#speedysito_messages {
+/* SPEEDYSITO TABS */
+#speedysito_tabs {
   background-color: #FFFFFF;
   position: fixed;
   width: 100%;
@@ -23,11 +7,11 @@
   border-bottom: 1px solid #888;
 }
 
-#speedysito_messages span.trigger {
+#speedysito_tabs span.trigger {
   width: 81px;
   height: 26px;
   display: block;
-  left: 17px;
+  left: 110px;
   position: absolute;
   cursor: pointer;
   background: none repeat scroll 0 0 #FFFFE6;
@@ -36,7 +20,7 @@
   border-width: 0 1px 1px;
 }
 
-#speedysito_messages span.trigger em {
+#speedysito_tabs span.trigger em {
   background: url("../images/trigger-arrow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   position: absolute;
   display: block;
@@ -46,10 +30,7 @@
   left: 32px;
 }
 
-#speedysito_messages .messages {
-  margin: 0.5em;
-}
-
-#speedysito_messages.closed span.trigger em {
+#speedysito_tabs.closed span.trigger em {
     background-position: 0 bottom;
 }
+
