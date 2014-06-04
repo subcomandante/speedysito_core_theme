@@ -27,14 +27,14 @@ Drupal.behaviors.my_custom_behavior = {
       }
     });
 */
-    $(window).scroll(function() {
+/*    $(window).scroll(function() {
       if ($(this).scrollTop() > 0) {
         $("#speedysito_messages").css({position: 'fixed'});
       } else {
         $("#speedysito_messages").css({position: 'fixed'});
       }
     });
-
+*/
     $("#speedysito_messages").css({marginTop: '0px'}).removeClass('closed');
     $("#speedysito_messages .trigger").toggle(function() {
       //$(this).find('em').parent().parent('#speedysito_messages').addClass('closed').animate({marginTop: '-53px'}, "fast", function() {
@@ -51,19 +51,43 @@ Drupal.behaviors.my_custom_behavior = {
           //strCookies2 = $.cookie("panel2", 'opened');
           //strCookies = $.cookie("panel", null);
         });
-    if ($(window).scrollTop() > 0) {
+
+
+/*    if ($(window).scrollTop() > 0) {
       $("#speedysito_messages").css({position: 'fixed'});
     } else {
       $("#speedysito_messages").css({position: 'fixed'});
     }
+*/
+
+    //$("#speedysito_tabs").css({marginTop: '0px'}).removeClass('closed');
+    $("#speedysito_tabs").css({marginTop: -$("#speedysito_tabs").height()}).addClass('closed');
+    $("#speedysito_tabs .trigger").toggle(function() {
+      $(this).find('em').parent().parent('#speedysito_tabs').removeClass('closed').animate({marginTop: '0px'}, "fast", function() {
+      //$(this).find('em').parent().parent('#speedysito_tabs').addClass('closed').animate({marginTop: -$("#speedysito_tabs").height()}, "fast", function() {
+        //calcHeight();
+      });
+      //strCookies2 = $.cookie("panel2", null);
+      //strCookies = $.cookie("panel", 'boo');
+    },
+        function() {
+          //$(this).find('em').parent().parent('#speedysito_tabs').removeClass('closed').animate({marginTop: '0px'}, "fast", function() {
+          $(this).find('em').parent().parent('#speedysito_tabs').addClass('closed').animate({marginTop: -$("#speedysito_tabs").height()}, "fast", function() {
+            //calcHeight();
+          })
+          //strCookies2 = $.cookie("panel2", 'opened');
+          //strCookies = $.cookie("panel", null);
+        });
+
 
 /*    $('.trigger').click(function() {
       $('.view_options dd').fadeOut(100);
     })
-*/
+
     $('.trigger').click(function() {
       $('.buy_now').removeClass("open");
     })
+*/
 /*
     $('.view_options  dt')
         .click(function() {

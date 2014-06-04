@@ -12,7 +12,7 @@
 
 
   <?php if ($messages): ?>
-  <div id="speedysito_messages" class="js-demo-upper-menu">
+  <div id="speedysito_messages">
   <span class="trigger"><em></em></span>
     <div class="ss_row_wrapper clearfix">
       <?php print $messages; ?>
@@ -20,7 +20,7 @@
   </div>
   <?php endif; ?>
 
-  <?php if ($tabs): ?>
+  <?php if (render($tabs)): ?>
   <div id="speedysito_tabs">
   <span class="trigger"><em></em></span>
     <div class="ss_row_wrapper clearfix">
