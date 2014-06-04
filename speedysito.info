@@ -75,6 +75,7 @@ stylesheets[all][] = css/speedysito-block.css
 ; Optionally add some JavaScripts to your theme.
 
 ;scripts[] = js/script.js
+scripts[] = js/speedysito_messages.js
 
 
 

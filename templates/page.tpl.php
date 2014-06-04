@@ -10,6 +10,16 @@
 
 <div id="page">
 
+
+  <?php if ($messages): ?>
+  <div id="speedysito_messages" class="js-demo-upper-menu">
+  <span class="trigger"><em></em></span>
+    <div class="ss_row_wrapper clearfix">
+      <?php print $messages; ?>
+    </div>
+  </div>
+  <?php endif; ?>
+
   <div id="header_top">
   <div class="region_header_top_inner ss_row_wrapper clearfix">
     <?php print render($page['header_top']); ?>
@@ -88,7 +98,6 @@
         <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
       <?php print render($tabs); ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links): ?>
