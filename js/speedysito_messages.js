@@ -4,7 +4,7 @@
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
 Drupal.behaviors.my_custom_behavior = {
   attach: function(context, settings) {
-
+/*
     $('.name_template .link-1').click(function() {
 
       var dd = $('.view_options  dt').siblings('dd');
@@ -26,7 +26,7 @@ Drupal.behaviors.my_custom_behavior = {
         return false;
       }
     });
-
+*/
     $(window).scroll(function() {
       if ($(this).scrollTop() > 0) {
         $("#speedysito_messages").css({position: 'fixed'});
@@ -63,7 +63,7 @@ Drupal.behaviors.my_custom_behavior = {
     $('.trigger').click(function() {
       $('.buy_now').removeClass("open");
     })
-
+/*
     $('.view_options  dt')
         .click(function() {
       var dd = $(this).siblings('dd');
@@ -191,7 +191,7 @@ Drupal.behaviors.my_custom_behavior = {
             : is('win') ? ' win' : ''
       ].join(" "));
     }();
-
+*/
 
   }
 };
