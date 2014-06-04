@@ -53,3 +53,41 @@
 #speedysito_messages.closed span.trigger em {
     background-position: 0 bottom;
 }
+
+/* SPEEDYSITO TABS */
+#speedysito_tabs {
+  background-color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  border-bottom: 1px solid #888;
+  /*display: none;*/
+}
+
+#speedysito_tabs span.trigger {
+  width: 81px;
+  height: 26px;
+  display: block;
+  left: 110px;
+  position: absolute;
+  cursor: pointer;
+  background: none repeat scroll 0 0 #FFFFE6;
+  bottom: -27px;
+  border-style: none solid solid;
+  border-width: 0 1px 1px;
+}
+
+#speedysito_tabs span.trigger em {
+  background: url("../images/trigger-arrow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  position: absolute;
+  display: block;
+  height: 10px;
+  width: 17px;
+  bottom: 8px;
+  left: 32px;
+}
+
+#speedysito_tabs.closed span.trigger em {
+    background-position: 0 bottom;
+}
+

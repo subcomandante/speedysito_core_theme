@@ -57,9 +57,10 @@ Drupal.behaviors.my_custom_behavior = {
       $("#speedysito_messages").css({position: 'fixed'});
     }
 
-    $('.trigger').click(function() {
+/*    $('.trigger').click(function() {
       $('.view_options dd').fadeOut(100);
     })
+*/
     $('.trigger').click(function() {
       $('.buy_now').removeClass("open");
     })
