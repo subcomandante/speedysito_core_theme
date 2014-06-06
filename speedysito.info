@@ -104,6 +104,7 @@ regions[main_top]       = Main top
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
+regions[content_bottom] = Content bottom
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[main_bottom]    = Main bottom
