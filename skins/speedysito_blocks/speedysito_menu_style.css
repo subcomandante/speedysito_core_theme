@@ -34,7 +34,6 @@
 }
 
 .speedysito-menu-style-simple ul.menu li.menu__item a.menu__link.active {
-  padding-left: 20px;
   background-color: #a6cd40;
   font-weight: bold;
   color: #fff;
