@@ -145,6 +145,23 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
 
 
   /* MENU */
+  $skins['speedysito_menu_orientation'] = array(
+    'title' => t('Orientation'),
+    'description' => t('Change the menu orientation'),
+    'type' => 'select',
+    'attached' => array('css' => array('speedysito_menu_orientation.css')),
+    /*'weight' => '10',*/
+    'default status' => 1,
+    'group' => 'speedysito_menus',
+    'theme hooks' => array('block__menu', 'block__system', 'block__menu_block'),
+    'options' => array(
+      'speedysito_menu_style_horizontal'   => array('title' => t('Horizontal'), 'class' => array('speedysito-menu-orientation-horizontal')),
+      'speedysito_menu_style_vertical'   => array('title' => t('Vertical'), 'class' => array('speedysito-menu-orientation-vertical')),
+    ),
+  );
+
+
+
   $skins['speedysito_menu_style'] = array(
     'title' => t('Style'),
     'description' => t('Change the style of menu'),
