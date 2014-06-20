@@ -145,6 +145,24 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
 
 
   /* MENU */
+  $skins['speedysito_menu_title'] = array(
+    'title' => t('Title'),
+    'description' => t('Configure the menu title'),
+    'type' => 'select',
+    'attached' => array('css' => array('speedysito_menu_title.css')),
+    /*'weight' => '10',*/
+    'default status' => 1,
+    'group' => 'speedysito_menus',
+    'theme hooks' => array('block__menu', 'block__system', 'block__menu_block'),
+    'options' => array(
+      'speedysito_menu_title_hidden'   => array('title' => t('Hidden'), 'class' => array('speedysito-menu-title-hidden')),
+      /*'speedysito_menu_style_vertical'   => array('title' => t('Vertical'), 'class' => array('speedysito-menu-orientation-vertical')),*/
+    ),
+  );
+
+
+
+
   $skins['speedysito_menu_orientation'] = array(
     'title' => t('Orientation'),
     'description' => t('Change the menu orientation'),
@@ -174,6 +192,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     'options' => array(
       'speedysito_menu_style_simple'   => array('title' => t('Simple'), 'class' => array('speedysito-menu-style-simple')),
       'speedysito_menu_style_tabbed'   => array('title' => t('Tabbed'), 'class' => array('speedysito-menu-style-tabbed')),
+      'speedysito_menu_style_simpleslash' => array('title' => t('Simple Slash'), 'class' => array('speedysito-menu-style-simpleslash')),
     ),
   );
 
