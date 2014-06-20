@@ -1,6 +1,7 @@
 .speedysito-menu-orientation-horizontal ul.menu li {
-  float: left;
-  display: block;
+/*  float: left;
+  display: block;*/
+  display: inline;
 }
 
 .speedysito-menu-orientation-vertical ul.menu li {

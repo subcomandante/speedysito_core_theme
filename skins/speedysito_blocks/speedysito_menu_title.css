@@ -1,3 +1,14 @@
+/* INLINE */
+.speedysito-menu-title-inline h2.block-title {
+  display: inline;
+}
+
+.speedysito-menu-title-inline ul {
+  display: inline;
+}
+
+
+/* HIDDEN */
 .speedysito-menu-title-hidden h2.block-title {
   display: none;
 }

@@ -155,6 +155,7 @@ function speedysito_skinr_skin_speedysito_blocks_info() {
     'group' => 'speedysito_menus',
     'theme hooks' => array('block__menu', 'block__system', 'block__menu_block'),
     'options' => array(
+      'speedysito_menu_title_inline'   => array('title' => t('Inline'), 'class' => array('speedysito-menu-title-inline')),
       'speedysito_menu_title_hidden'   => array('title' => t('Hidden'), 'class' => array('speedysito-menu-title-hidden')),
       /*'speedysito_menu_style_vertical'   => array('title' => t('Vertical'), 'class' => array('speedysito-menu-orientation-vertical')),*/
     ),
