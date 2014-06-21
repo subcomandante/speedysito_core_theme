@@ -58,7 +58,7 @@ stylesheets[all][] = system.theme.css
 ; Then we add our own stylesheet.
 stylesheets[all][] = css/styles.css
 ; SASS
-stylesheets[all][] = css/speedysito.css
+stylesheets[all][] = css/speedysito-grid.css
 ; UI
 stylesheets[all][] = css/speedysito-messages.css
 stylesheets[all][] = css/speedysito-tabs.css
