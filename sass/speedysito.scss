@@ -2,9 +2,9 @@
 
 
 .ss_row_wrapper {
-  $zen-column-count: 6; // Set the total number of columns in the grid.
+  $zen-column-count: 4; // Set the total number of columns in the grid.
 }
 
 .speedysito-block-width-50 {
-  @include zen-grid-item(3, 2);
+  @include zen-grid-item(2, 1);
 }
