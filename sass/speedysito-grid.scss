@@ -5,6 +5,19 @@
   $zen-column-count: 4; // Set the total number of columns in the grid.
 }
 
-.speedysito-block-width-50 {
+.speedysito-grid-1-column-wide {
+  @include zen-grid-item(1, 1);
+}
+
+.speedysito-grid-2-column-wide {
   @include zen-grid-item(2, 1);
 }
+
+.speedysito-grid-3-column-wide {
+  @include zen-grid-item(3, 1);
+}
+
+.speedysito-grid-4-column-wide {
+  @include zen-grid-item(4, 1);
+}
+
