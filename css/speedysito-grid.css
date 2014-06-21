@@ -549,7 +549,12 @@
   word-wrap: break-word;
 }
 
-/* line 163, ../sass/speedysito-grid.scss */
+/* line 165, ../sass/speedysito-grid.scss */
+.speedysito-grid-columns-clear-left {
+  clear: left;
+}
+
+/* line 169, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-clear-right {
   clear: right;
 }

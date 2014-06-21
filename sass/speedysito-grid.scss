@@ -160,6 +160,14 @@
   @include zen-grid-item(4, 4, right);
 }
 
+
+
+.speedysito-grid-columns-clear-left {
+  @include zen-clear(left);
+}
+
 .speedysito-grid-columns-clear-right {
   @include zen-clear(right);
 }
+
+

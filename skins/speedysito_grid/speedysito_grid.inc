@@ -64,7 +64,7 @@ function speedysito_skinr_skin_speedysito_grid_info() {
   );
 
 
-  $skins['speedysito_grid_column_clear_right'] = array(
+  $skins['speedysito_grid_column_clear'] = array(
     'title' => t('Clear'),
     'description' => t('Change me.'),
     'type' => 'select',
@@ -73,6 +73,7 @@ function speedysito_skinr_skin_speedysito_grid_info() {
     'group' => 'speedysito_grid',
     'theme hooks' => array('block'),
     'options' => array(
+      'speedysito_grid_column_clear_left'      => array('title' => t('Left'),  'class' => array('speedysito-grid-columns-clear-left')),
       'speedysito_grid_column_clear_right'     => array('title' => t('Right'), 'class' => array('speedysito-grid-columns-clear-right')),
     ),
   );
