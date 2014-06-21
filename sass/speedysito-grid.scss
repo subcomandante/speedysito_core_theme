@@ -3,6 +3,7 @@
 
 .ss_row_wrapper {
   $zen-column-count: 4; // Set the total number of columns in the grid.
+  @include zen-grid-container;
 }
 
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-1 {
@@ -70,5 +71,73 @@
 
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-4 {
   @include zen-grid-item(4, 4);
+}
+
+
+
+.speedysito-grid-columns-wide-1.speedysito-grid-column-start-1.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(1, 1, right);
+}
+
+.speedysito-grid-columns-wide-2.speedysito-grid-column-start-1.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(2, 1, right);
+}
+
+.speedysito-grid-columns-wide-3.speedysito-grid-column-start-1.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(3, 1, right);
+}
+
+.speedysito-grid-columns-wide-4.speedysito-grid-column-start-1.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(4, 1, right);
+}
+
+
+.speedysito-grid-columns-wide-1.speedysito-grid-column-start-2.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(1, 2, right);
+}
+
+.speedysito-grid-columns-wide-2.speedysito-grid-column-start-2.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(2, 2, right);
+}
+
+.speedysito-grid-columns-wide-3.speedysito-grid-column-start-2.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(3, 2, right);
+}
+
+.speedysito-grid-columns-wide-4.speedysito-grid-column-start-2.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(4, 2, right);
+}
+
+.speedysito-grid-columns-wide-1.speedysito-grid-column-start-3.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(1, 3, right);
+}
+
+.speedysito-grid-columns-wide-2.speedysito-grid-column-start-3.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(2, 3, right);
+}
+
+.speedysito-grid-columns-wide-3.speedysito-grid-column-start-3.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(3, 3, right);
+}
+
+.speedysito-grid-columns-wide-4.speedysito-grid-column-start-3.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(4, 3, right);
+}
+
+
+.speedysito-grid-columns-wide-1.speedysito-grid-column-start-4.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(1, 4, right);
+}
+
+.speedysito-grid-columns-wide-2.speedysito-grid-column-start-4.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(2, 4, right);
+}
+
+.speedysito-grid-columns-wide-3.speedysito-grid-column-start-4.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(3, 4, right);
+}
+
+.speedysito-grid-columns-wide-4.speedysito-grid-column-start-4.speedysito-grid-column-alignment-right {
+  @include zen-grid-item(4, 4, right);
 }
 
