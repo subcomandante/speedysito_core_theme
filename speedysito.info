@@ -57,6 +57,7 @@ stylesheets[all][] = system.theme.css
 
 ; Then we add our own stylesheet.
 stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/speedysito.css
 ; SpeedySito block with corners (including block.tpl.php)
 stylesheets[all][] = css/speedysito-block.css
 stylesheets[all][] = css/speedysito-tabs.css
