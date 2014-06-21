@@ -487,3 +487,8 @@
   box-sizing: border-box;
   word-wrap: break-word;
 }
+
+/* line 144, ../sass/speedysito-grid.scss */
+.speedysito-grid-columns-clear-right {
+  clear: right;
+}

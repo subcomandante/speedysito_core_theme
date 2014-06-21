@@ -64,6 +64,22 @@ function speedysito_skinr_skin_speedysito_grid_info() {
   );
 
 
+  $skins['speedysito_grid_column_clear_right'] = array(
+    'title' => t('Clear'),
+    'description' => t('Change me.'),
+    'type' => 'select',
+    /*'attached' => array('css' => array('speedysito_grid_column_start.css')),*/
+    'default status' => 1,
+    'group' => 'speedysito_grid',
+    'theme hooks' => array('block'),
+    'options' => array(
+      'speedysito_grid_column_clear_right'     => array('title' => t('Right'), 'class' => array('speedysito-grid-columns-clear-right')),
+    ),
+  );
+
+
+
+
   return $skins;
 }
 
