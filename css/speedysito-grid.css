@@ -8,7 +8,68 @@
   clear: both;
 }
 
-/* line 9, ../sass/speedysito-grid.scss */
+/* No Start columns, we assume first one */
+/* line 11, ../sass/speedysito-grid.scss */
+.speedysito-grid-columns-wide-1 {
+  float: left;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: -25%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 15, ../sass/speedysito-grid.scss */
+.speedysito-grid-columns-wide-2 {
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 19, ../sass/speedysito-grid.scss */
+.speedysito-grid-columns-wide-3 {
+  float: left;
+  width: 75%;
+  margin-left: 0%;
+  margin-right: -75%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 23, ../sass/speedysito-grid.scss */
+.speedysito-grid-columns-wide-4 {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 28, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-1 {
   float: left;
   width: 25%;
@@ -23,7 +84,7 @@
   word-wrap: break-word;
 }
 
-/* line 13, ../sass/speedysito-grid.scss */
+/* line 32, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-2.speedysito-grid-column-start-1 {
   float: left;
   width: 50%;
@@ -38,7 +99,7 @@
   word-wrap: break-word;
 }
 
-/* line 17, ../sass/speedysito-grid.scss */
+/* line 36, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-3.speedysito-grid-column-start-1 {
   float: left;
   width: 75%;
@@ -53,7 +114,7 @@
   word-wrap: break-word;
 }
 
-/* line 21, ../sass/speedysito-grid.scss */
+/* line 40, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-1 {
   float: left;
   width: 100%;
@@ -68,7 +129,7 @@
   word-wrap: break-word;
 }
 
-/* line 26, ../sass/speedysito-grid.scss */
+/* line 45, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-2 {
   float: left;
   width: 25%;
@@ -83,7 +144,7 @@
   word-wrap: break-word;
 }
 
-/* line 30, ../sass/speedysito-grid.scss */
+/* line 49, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-2.speedysito-grid-column-start-2 {
   float: left;
   width: 50%;
@@ -98,7 +159,7 @@
   word-wrap: break-word;
 }
 
-/* line 34, ../sass/speedysito-grid.scss */
+/* line 53, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-3.speedysito-grid-column-start-2 {
   float: left;
   width: 75%;
@@ -113,7 +174,7 @@
   word-wrap: break-word;
 }
 
-/* line 38, ../sass/speedysito-grid.scss */
+/* line 57, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-2 {
   float: left;
   width: 100%;
@@ -128,7 +189,7 @@
   word-wrap: break-word;
 }
 
-/* line 43, ../sass/speedysito-grid.scss */
+/* line 62, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-3 {
   float: left;
   width: 25%;
@@ -143,7 +204,7 @@
   word-wrap: break-word;
 }
 
-/* line 47, ../sass/speedysito-grid.scss */
+/* line 66, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-2.speedysito-grid-column-start-3 {
   float: left;
   width: 50%;
@@ -158,7 +219,7 @@
   word-wrap: break-word;
 }
 
-/* line 51, ../sass/speedysito-grid.scss */
+/* line 70, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-3.speedysito-grid-column-start-3 {
   float: left;
   width: 75%;
@@ -173,7 +234,7 @@
   word-wrap: break-word;
 }
 
-/* line 55, ../sass/speedysito-grid.scss */
+/* line 74, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-3 {
   float: left;
   width: 100%;
@@ -188,7 +249,7 @@
   word-wrap: break-word;
 }
 
-/* line 60, ../sass/speedysito-grid.scss */
+/* line 79, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-4 {
   float: left;
   width: 25%;
@@ -203,7 +264,7 @@
   word-wrap: break-word;
 }
 
-/* line 64, ../sass/speedysito-grid.scss */
+/* line 83, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-2.speedysito-grid-column-start-4 {
   float: left;
   width: 50%;
@@ -218,7 +279,7 @@
   word-wrap: break-word;
 }
 
-/* line 68, ../sass/speedysito-grid.scss */
+/* line 87, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-3.speedysito-grid-column-start-4 {
   float: left;
   width: 75%;
@@ -233,7 +294,7 @@
   word-wrap: break-word;
 }
 
-/* line 72, ../sass/speedysito-grid.scss */
+/* line 91, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-4 {
   float: left;
   width: 100%;
@@ -248,7 +309,7 @@
   word-wrap: break-word;
 }
 
-/* line 78, ../sass/speedysito-grid.scss */
+/* line 97, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-1.speedysito-grid-column-alignment-right {
   float: right;
   width: 25%;
@@ -263,7 +324,7 @@
   word-wrap: break-word;
 }
 
-/* line 82, ../sass/speedysito-grid.scss */
+/* line 101, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-2.speedysito-grid-column-start-1.speedysito-grid-column-alignment-right {
   float: right;
   width: 50%;
@@ -278,7 +339,7 @@
   word-wrap: break-word;
 }
 
-/* line 86, ../sass/speedysito-grid.scss */
+/* line 105, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-3.speedysito-grid-column-start-1.speedysito-grid-column-alignment-right {
   float: right;
   width: 75%;
@@ -293,7 +354,7 @@
   word-wrap: break-word;
 }
 
-/* line 90, ../sass/speedysito-grid.scss */
+/* line 109, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-1.speedysito-grid-column-alignment-right {
   float: right;
   width: 100%;
@@ -308,7 +369,7 @@
   word-wrap: break-word;
 }
 
-/* line 95, ../sass/speedysito-grid.scss */
+/* line 114, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-2.speedysito-grid-column-alignment-right {
   float: right;
   width: 25%;
@@ -323,7 +384,7 @@
   word-wrap: break-word;
 }
 
-/* line 99, ../sass/speedysito-grid.scss */
+/* line 118, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-2.speedysito-grid-column-start-2.speedysito-grid-column-alignment-right {
   float: right;
   width: 50%;
@@ -338,7 +399,7 @@
   word-wrap: break-word;
 }
 
-/* line 103, ../sass/speedysito-grid.scss */
+/* line 122, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-3.speedysito-grid-column-start-2.speedysito-grid-column-alignment-right {
   float: right;
   width: 75%;
@@ -353,7 +414,7 @@
   word-wrap: break-word;
 }
 
-/* line 107, ../sass/speedysito-grid.scss */
+/* line 126, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-2.speedysito-grid-column-alignment-right {
   float: right;
   width: 100%;
@@ -368,7 +429,7 @@
   word-wrap: break-word;
 }
 
-/* line 111, ../sass/speedysito-grid.scss */
+/* line 130, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-3.speedysito-grid-column-alignment-right {
   float: right;
   width: 25%;
@@ -383,7 +444,7 @@
   word-wrap: break-word;
 }
 
-/* line 115, ../sass/speedysito-grid.scss */
+/* line 134, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-2.speedysito-grid-column-start-3.speedysito-grid-column-alignment-right {
   float: right;
   width: 50%;
@@ -398,7 +459,7 @@
   word-wrap: break-word;
 }
 
-/* line 119, ../sass/speedysito-grid.scss */
+/* line 138, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-3.speedysito-grid-column-start-3.speedysito-grid-column-alignment-right {
   float: right;
   width: 75%;
@@ -413,7 +474,7 @@
   word-wrap: break-word;
 }
 
-/* line 123, ../sass/speedysito-grid.scss */
+/* line 142, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-3.speedysito-grid-column-alignment-right {
   float: right;
   width: 100%;
@@ -428,7 +489,7 @@
   word-wrap: break-word;
 }
 
-/* line 128, ../sass/speedysito-grid.scss */
+/* line 147, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-4.speedysito-grid-column-alignment-right {
   float: right;
   width: 25%;
@@ -443,7 +504,7 @@
   word-wrap: break-word;
 }
 
-/* line 132, ../sass/speedysito-grid.scss */
+/* line 151, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-2.speedysito-grid-column-start-4.speedysito-grid-column-alignment-right {
   float: right;
   width: 50%;
@@ -458,7 +519,7 @@
   word-wrap: break-word;
 }
 
-/* line 136, ../sass/speedysito-grid.scss */
+/* line 155, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-3.speedysito-grid-column-start-4.speedysito-grid-column-alignment-right {
   float: right;
   width: 75%;
@@ -473,7 +534,7 @@
   word-wrap: break-word;
 }
 
-/* line 140, ../sass/speedysito-grid.scss */
+/* line 159, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-wide-4.speedysito-grid-column-start-4.speedysito-grid-column-alignment-right {
   float: right;
   width: 100%;
@@ -488,7 +549,7 @@
   word-wrap: break-word;
 }
 
-/* line 144, ../sass/speedysito-grid.scss */
+/* line 163, ../sass/speedysito-grid.scss */
 .speedysito-grid-columns-clear-right {
   clear: right;
 }

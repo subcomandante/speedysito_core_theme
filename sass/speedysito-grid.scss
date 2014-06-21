@@ -6,6 +6,25 @@
   @include zen-grid-container;
 }
 
+
+/* No Start columns, we assume first one */
+.speedysito-grid-columns-wide-1 {
+  @include zen-grid-item(1, 1);
+}
+
+.speedysito-grid-columns-wide-2 {
+  @include zen-grid-item(2, 1);
+}
+
+.speedysito-grid-columns-wide-3 {
+  @include zen-grid-item(3, 1);
+}
+
+.speedysito-grid-columns-wide-4 {
+  @include zen-grid-item(4, 1);
+}
+
+
 .speedysito-grid-columns-wide-1.speedysito-grid-column-start-1 {
   @include zen-grid-item(1, 1);
 }
