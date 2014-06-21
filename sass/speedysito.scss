@@ -1,0 +1,10 @@
+@import "zen";
+
+
+.ss_row_wrapper {
+  $zen-column-count: 6; // Set the total number of columns in the grid.
+}
+
+.speedysito-block-width-50 {
+  @include zen-grid-item(3, 2);
+}
