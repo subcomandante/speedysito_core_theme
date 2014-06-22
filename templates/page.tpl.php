@@ -36,15 +36,14 @@
     <?php print render($page['header_top']); ?>
   </div>
   </div>
-
   <header class="header" id="header" role="banner">
   <div class="region_header_inner ss_row_wrapper clearfix">
     <?php print render($page['header']); ?>
   </div>
-  <div id="header_bottom">
+  </header>
+  <header class="header" id="header_bottom" role="banner">
   <div class="region_header_bottom_inner ss_row_wrapper clearfix">
     <?php print render($page['header_bottom']); ?>
-  </div>
   </div>
   </header>
 

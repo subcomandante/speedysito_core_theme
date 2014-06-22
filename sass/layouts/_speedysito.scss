@@ -52,6 +52,7 @@ $zen-auto-include-item-base: false;
 .region-sidebar-second,
 #footer {
   // See the note about $zen-auto-include-item-base above.
+  $zen-gutter-width: 0;
   @include zen-grid-item-base();
 }
 
