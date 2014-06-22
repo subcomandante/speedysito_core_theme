@@ -1,5 +1,6 @@
 .block {
   position:relative;
+  /*z-index:1;*/ /* Fix context layout editing */
 }
 
 .block .box{
